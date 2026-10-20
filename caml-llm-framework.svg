@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6 Z" fill="#475569"/></marker>
+    <style>
+      .title{font:700 26px Arial,sans-serif;fill:#0f172a}.h{font:700 16px Arial,sans-serif;fill:#0f172a}.t{font:14px Arial,sans-serif;fill:#334155}.small{font:12px Arial,sans-serif;fill:#475569}.box{stroke:#64748b;stroke-width:2;rx:12}.arrow{stroke:#475569;stroke-width:2.5;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="760" fill="#f8fafc"/>
+  <text x="600" y="42" text-anchor="middle" class="title">CAML-LLM engineering and evaluation framework</text>
+  <text x="600" y="67" text-anchor="middle" class="small">Five minority languages · multimodal corpus · community-governed model intervention</text>
+  <rect x="40" y="105" width="250" height="185" fill="#dbeafe" class="box"/>
+  <text x="60" y="135" class="h">1. Community and data layer</text>
+  <text x="60" y="165" class="t">5 languages / 4 families</text><text x="60" y="188" class="t">250 h audio · 10M tokens</text><text x="60" y="211" class="t">50,000 cultural images</text><text x="60" y="234" class="t">83 priority participants</text><text x="60" y="257" class="t">295 evaluation participants</text>
+  <rect x="330" y="105" width="250" height="185" fill="#dcfce7" class="box"/>
+  <text x="350" y="135" class="h">2. Knowledge and features</text>
+  <text x="350" y="165" class="t">5 cultural knowledge graphs</text><text x="350" y="188" class="t">~15k entities / language</text><text x="350" y="211" class="t">~45k relations / language</text><text x="350" y="234" class="t">RotatE: 256-d embeddings</text><text x="350" y="257" class="t">Whisper + CLIP cached features</text>
+  <rect x="620" y="105" width="250" height="185" fill="#fef3c7" class="box"/>
+  <text x="640" y="135" class="h">3. CAML-LLM adaptation</text>
+  <text x="640" y="165" class="t">Qwen-7B backbone</text><text x="640" y="188" class="t">LoRA on 32 QKV projections</text><text x="640" y="211" class="t">25k language tokenizer rows</text><text x="640" y="234" class="t">KG cross-attention + gate</text><text x="640" y="257" class="t">Community-weighted loss</text>
+  <rect x="910" y="105" width="250" height="185" fill="#fce7f3" class="box"/>
+  <text x="930" y="135" class="h">4. Training scale</text>
+  <text x="930" y="165" class="t">8 × NVIDIA A100 80GB</text><text x="930" y="188" class="t">34 h preprocessing</text><text x="930" y="211" class="t">72 h adaptation</text><text x="930" y="234" class="t">293M updated scalars</text><text x="930" y="257" class="t">82% mean GPU utilization</text>
+  <path d="M290 198 H330 M580 198 H620 M870 198 H910" class="arrow"/>
+  <rect x="80" y="370" width="300" height="190" fill="#ede9fe" class="box"/>
+  <text x="100" y="400" class="h">Causal disparity analysis</text>
+  <text x="100" y="432" class="t">Four-way mediation decomposition</text><text x="100" y="455" class="t">CDE + interaction + PIE</text><text x="100" y="478" class="t">Sensitivity to unmeasured confounding</text><text x="100" y="501" class="t">Average non-PIE share: 67.5%</text><text x="100" y="524" class="t">312 matched pairs / language</text>
+  <rect x="450" y="370" width="300" height="190" fill="#e0f2fe" class="box"/>
+  <text x="470" y="400" class="h">Intersectional and human evaluation</text>
+  <text x="470" y="432" class="t">Age × religion × dialect cells</text><text x="470" y="455" class="t">Community weights vs equal weights</text><text x="470" y="478" class="t">Threshold rules for salient harms</text><text x="470" y="501" class="t">1–7 violation ratings</text><text x="470" y="524" class="t">Speaker-held-out outputs</text>
+  <rect x="820" y="370" width="300" height="190" fill="#dcfce7" class="box"/>
+  <text x="840" y="400" class="h">Model comparison and ablation</text>
+  <text x="840" y="432" class="t">15,600 held-out utterances</text><text x="840" y="455" class="t">FLEURS: 1,750 recordings</text><text x="840" y="478" class="t">FLORES: 5,060 sentence pairs</text><text x="840" y="501" class="t">KG / MM / CW full factorial</text><text x="840" y="524" class="t">WER · BLEU · chrF++ · appropriateness</text>
+  <path d="M745 290 V330 H230 V370 M745 290 V330 H600 V370 M745 290 V330 H970 V370" class="arrow"/>
+  <rect x="190" y="635" width="820" height="72" fill="#0f172a" rx="14"/>
+  <text x="600" y="664" text-anchor="middle" style="font:700 18px Arial,sans-serif;fill:white">Evidence chain: community priorities → governed data → multimodal adaptation → causal + empirical evaluation</text>
+  <text x="600" y="688" text-anchor="middle" style="font:13px Arial,sans-serif;fill:#cbd5e1">Reported endpoint: WER 31.2% → 22.7% · cultural appropriateness +22.5%</text>
+</svg>
