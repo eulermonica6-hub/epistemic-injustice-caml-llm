@@ -8,7 +8,6 @@
 - Venue: *International Journal of Human–Computer Interaction* (published online 13 October 2026)
 - DOI: [10.1080/10447318.2026.2744497](https://doi.org/10.1080/10447318.2026.2744497)
 
-本仓库聚焦论文中的**工程特色**与**实验设计**，用于研究展示与快速理解。完整论文请以出版社页面为准。
 
 ## 一句话概括
 
